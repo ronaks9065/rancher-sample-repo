@@ -11,7 +11,7 @@ metadata:
   name: facebook
   namespace: ronak
 spec:
-  replicas: 10
+  replicas: 15
   selector:
     matchLabels:
       app: facebook
