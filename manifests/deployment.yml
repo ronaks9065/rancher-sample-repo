@@ -22,9 +22,9 @@ spec:
     spec:
       containers:
       - name: facebook
-        image: gcr.io/google-samples/hello-app:1.0
+        image: ronak1907/simple-website-reactjs:3
         ports:
-        - containerPort: 8080
+        - containerPort: 80
 
 ---
 
@@ -38,6 +38,6 @@ spec:
     app: facebook
   ports:
     - protocol: TCP
-      port: 8080
-      targetPort: 8080
+      port: 80
+      targetPort: 80
   type: NodePort
