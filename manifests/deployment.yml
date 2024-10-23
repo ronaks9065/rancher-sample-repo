@@ -11,7 +11,7 @@ metadata:
   name: facebook
   namespace: ronak
 spec:
-  replicas: 25
+  replicas: 1
   selector:
     matchLabels:
       app: facebook
@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: facebook
-        image: ronak1907/simple-website-reactjs:<IMAGE_TAG>
+        image: ronak1907/simple-website-reactjs:14
         ports:
         - containerPort: 80
 
