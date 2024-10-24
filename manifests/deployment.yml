@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: facebook
-        image: ronak1907/simple-website-reactjs:36
+        image: ronak1907/simple-website-reactjs:37
         ports:
         - containerPort: 80
 
